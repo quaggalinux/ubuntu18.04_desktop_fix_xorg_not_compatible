@@ -1,0 +1,2 @@
+# ubuntu18.04_desktop_fix_xorg_not_compatible
+ubuntu18.04桌面版解决xorg不兼容xrdp协议导致远程桌面显示蓝色背景并吊死问题
