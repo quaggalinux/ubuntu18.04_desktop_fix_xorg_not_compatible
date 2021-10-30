@@ -1,7 +1,7 @@
 # ubuntu18.04_desktop_fix_xorg_not_compatible  
 ubuntu18.04桌面版解决xorg不兼容xrdp协议导致远程桌面显示蓝色背景并吊死问题  
    
-最近有项目需要安装ubuntu-18.04.6-desktop-amd64.iso这个桌面版本，装好后发现远程桌面连接出现鬼伄问题，  
+最近有项目需要安装ubuntu-18.04.6-desktop-amd64.iso这个桌面版本，装好后发现远程桌面连接出现吊诡问题，  
 一般连接桌面版ubuntu的远程桌面需要安装xrdp协议，安装如下：  
   
 安装远程桌面访问协议   
