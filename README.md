@@ -10,7 +10,7 @@ ubuntu18.04桌面版解决xorg不兼容xrdp协议导致远程桌面显示蓝色�
 启动服务  
 #service xrdp restart  
   
-如果这时远程桌面连接，输入用户名及正确的密码，然后显示蓝色背景屏幕并吊死，这个情况还是第一次碰到，以前装不是好好的吗？  
+如果这时连接远程桌面，输入用户名及正确的密码，然后显示蓝色背景屏幕并吊死，这个情况还是第一次碰到，以前装不是好好的吗？  
 于是放狗，终于知道在新的ubuntu-18.04桌面版会出现如下远程桌面协议不兼容情况：  
 The xRDP packages available on Ubuntu Repositories are not compatible with the new xserver-xorg-hwe-18.04 packages 
 which basically break the remote desktop functionality  
@@ -36,7 +36,7 @@ $su
 执行完成后就行了  
 #./Std-Xrdp-Install-0.5.3.sh  
   
-之后重启机器，如果这时远程桌面连接，输入用户名及正确的密码，继续显示蓝色背景屏幕并吊死，就需要下面步骤解决：  
+之后重启机器，如果这时连接远程桌面，输入用户名及正确的密码，继续显示蓝色背景屏幕并吊死，就需要下面步骤解决：  
   
 转用root用户并安装新的xrdp协议  
 #add-apt-repository ppa:martinx/xrdp-next  
