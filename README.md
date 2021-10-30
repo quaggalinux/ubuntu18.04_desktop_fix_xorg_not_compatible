@@ -15,7 +15,7 @@ ubuntu18.04桌面版解决xorg不兼容xrdp协议导致远程桌面显示蓝色�
 The xRDP packages available on Ubuntu Repositories are not compatible with the new xserver-xorg-hwe-18.04 packages 
 which basically break the remote desktop functionality  
   
-但ubuntu20桌面版暂时没有这个问题，我去了！  
+但ubuntu20桌面版暂时没有这个问题，我去了，真是！  
 没有办法，项目必须使用ubuntu-18.04.6-desktop-amd64.iso这个桌面版本，好吧，只能解决问题了  
   
 先试下面步骤：  
